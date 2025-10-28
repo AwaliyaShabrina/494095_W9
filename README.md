@@ -1,6 +1,14 @@
 # Program Menghitung Sifat Lingkaran (C++)
 Program ini berfungsi untuk menentukan jari-jari, diameter, keliling, serta luas suatu lingkaran berdasarkan dua titik masukan, yaitu titik pusat (centroid) dan satu titik pada kelilingnya. Struktur program dibuat dengan menggunakan user-defined functions agar kode lebih terorganisasi, modular, dan mudah dipahami.
+
+## I/O Function Flowchart
 ![image alt](https://github.com/AwaliyaShabrina/494095_W9/blob/80e904676cede52e2d929b32c6ea01352e8db0f9/I%3AO%20Function.png)
+
+## Math Function Flowchart
+![image alt](https://github.com/AwaliyaShabrina/494095_W9/blob/ab89f8008b5225f62d6634fd68217b38ebc83019/math%20function%20.png)
+
+## Main Function Flowchart
+![image alt](https://github.com/AwaliyaShabrina/494095_W9/blob/ab89f8008b5225f62d6634fd68217b38ebc83019/main%20function.png)
 
 ## Fungsi getCoordinates()
 Fungsi ini bertugas untuk meminta input koordinat dari pengguna, yaitu titik pusat dan satu titik pada keliling lingkaran. Parameter fungsi menggunakan double& (pass by reference), sehingga nilai yang dimasukkan oleh pengguna langsung tersimpan dan dapat digunakan oleh fungsi lain tanpa perlu dikembalikan terlebih dahulu. Fungsi ini meminta dua jenis input, yaitu koordinat pusat lingkaran (cx, cy) dan koordinat titik pada keliling lingkaran (px, py).
